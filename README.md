@@ -1,4 +1,4 @@
-[![GitHub Views](https://komarev.com/ghpvc/?username=mysanjeev99&color=FAC151)][1]
+![GitHub Views](https://komarev.com/ghpvc/?username=mysanjeev99&color=FAC151)
 ### Hi there 👋,
 
 
