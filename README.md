@@ -1,4 +1,6 @@
-### Hi there 👋
+[![GitHub Views](https://komarev.com/ghpvc/?username=mysanjeev99&color=FAC151)][1]
+### Hi there 👋,
+
 
 <!--
 **mysanjeev99/mysanjeev99** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
