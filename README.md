@@ -6,6 +6,7 @@
 
 # Hi there 👋 I am Sanjeev,
 I'm an experienced machine learning aspirant who is passionate about creating solutions to complex challenges. I have a unique perspective on how to approach projects because of my background in programming and machine learning, my experience with do-it-yourself electrical projects, and the creation of an autonomous quadcopter specifically for computer vision tasks. I'm always looking for fresh challenges and chances to put my skills to use in practical situations. To find out more about my background and interests in the field of robotics and AI, connect with me on LinkedIn.
+### Personal Website https://mysanjeev99.github.io/
 ### Link to all my projects https://www.linkedin.com/in/sanjeev-mohan/details/projects/
 
 
