@@ -1,5 +1,6 @@
 [![Sanjeev Mohan](https://github.com/mysanjeev99/mysanjeev99/blob/main/DATA/Banner.png)](https://mysanjeev99.github.io/)
 ![GitHub Views](https://komarev.com/ghpvc/?username=mysanjeev99&color=5844a5)
+[![orcid](https://orcid.org/0000-0002-0230-0432)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoWidth=20)](https://www.linkedin.com/in/sanjeev-mohan)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Website-5844a5)](https://mysanjeev99.github.io/)
 [![Projects](https://img.shields.io/badge/Projects-Website-5844a5)](https://www.linkedin.com/in/sanjeev-mohan/details/projects/)
