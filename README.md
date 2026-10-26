@@ -9,28 +9,38 @@
 
 ## About
 
-I build AI systems end to end: agentic workflows, generative pipelines and computer vision, plus the cloud platform that runs them. I lead architecture and delivery, and I came into this from applied research (MSc AI with Machine Learning, Distinction, Queen Mary University of London).
+I build agentic AI systems, generative pipelines and the platform underneath them: identity, tool gateways and deployment. Much of my work lives in private repositories (marked 🔒), so for those I describe the technology, not the internals.
 
-<div align="center">
+## Agentic systems
 
-| **~30,000** | **157** | **250+** | **2** |
-|:---:|:---:|:---:|:---:|
-| users of an agentic RAG knowledge assistant | apps covered by a Kubernetes operations assistant on EKS | specialists using a multi-agent concept system | peer-reviewed papers |
+| Project | Technology |
+|---|---|
+| **Cascade** 🔒 | An agentic assistant that searches its own knowledge base first, falls back to the web, and learns from useful answers. Streaming responses, isolated per-user tool execution, approval-gated actions. FastAPI, LangGraph, Qdrant, PostgreSQL, React, Playwright, Docker. |
+| **Agents** 🔒 | A workbench for multi-agent patterns: agent-to-agent protocols, agentic RAG, state and memory, CrewAI, and a LangGraph recommender on PostgreSQL with pgvector. |
+| **DesignMatic** 🔒 | An image-generation agent: an orchestrator routes between generate, edit, combine and describe tools over diffusion models (Flux through ComfyUI, Gemini), with an async job queue and a React and TypeScript front end. |
+| [**social-media-agent**](https://github.com/mysanjeev99/social-media-agent) | Multi-agent Streamlit app: scrapes recent news, summarizes with an LLM, checks content safety and formats a social post. |
 
-</div>
+## Platform and infrastructure
 
-### Focus
+| Project | Technology |
+|---|---|
+| **MCP Platform** 🔒 | A gateway that hosts several MCP servers behind OAuth, authorization, rate limiting and audit logging, with an admin UI. Docker Compose and Coolify. |
+| **Authenticator** 🔒 | A self-hosted OpenID Connect and OAuth 2.0 identity provider with modern flows, MFA and passkeys, audit logging and per-application access. Node, Fastify, PostgreSQL, Redis. |
 
-- **Agentic and multi-agent systems:** specialist agents and tools working together to turn ambiguous briefs and operations questions into structured, actionable results.
-- **Retrieval and knowledge systems:** RAG over proprietary data with evaluation and guardrails.
-- **Generative pipelines:** customer feedback to product-ready concept visuals (Amazon Nova Canvas), image editing and diffusion workflows.
-- **MCP tooling:** exposing real systems (Kubernetes, cloud audit logs, internal data) to agents safely.
-- **Computer vision research:** deep learning for UAV-based crack detection (Elsevier EAAI 2024) and voice-activated face recognition (IOPscience J. Phys. 2021).
-- **Cloud and platform:** AWS Bedrock and AgentCore Runtime, EKS, Aurora PostgreSQL, IAM, Docker and Kubernetes.
+## Models and generative AI
 
-### Now
+| Project | Technology |
+|---|---|
+| **unsloth-finetune** 🔒 | Multimodal fine-tuning of Gemma 3n with Unsloth. |
+| [**ImageGen-Stable-Diffusion-3.5-Quantized-Local**](https://github.com/mysanjeev99/ImageGen-Stable-Diffusion-3.5-Quantized-Local) | Download and quantize Stable Diffusion 3.5 for local image generation. |
+| [**conversational_LLM**](https://github.com/mysanjeev99/conversational_LLM) | Proof-of-concept GPT-2 based conversational model with text-to-speech. |
+| [**Face-Image-generation-using-nvidia-StyleGAN**](https://github.com/mysanjeev99/Face-Image-generation-using-nvidia-StyleGAN) | StyleGAN2 face generation trained on CelebA-HQ 256. |
 
-Tech Lead, AI/ML Engineer at **IFF** (consultant via SwaaS Systems). Outside work I run my own self-hosted AI platform on a home server: Coolify behind a Cloudflare Tunnel, Ollama with LiteLLM, Qdrant, PostgreSQL with pgvector and Arize Phoenix for tracing.
+## Earlier research projects
+
+- [**Classifying-learners-cognitive-affective-states**](https://github.com/mysanjeev99/Classifying-learners-cognitive-affective-states-during-online-learning): classifies a student's state from images using a classifier plus pose estimation (MSc dissertation).
+- [**MLEnd-AudioSegment_Detection**](https://github.com/mysanjeev99/MLEnd-AudioSegment_Detection): audio classification of hums and whistles with MFCC features.
+- [**textclassifier_BERTMODEL**](https://github.com/mysanjeev99/textclassifier_BERTMODEL): BERT text classification.
 
 ## Tech stack
 
